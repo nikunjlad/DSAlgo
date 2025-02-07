@@ -8,7 +8,7 @@ Given an array of integers, find the largest element in the array.
 using namespace std;
 
 // BRUTE FORCE:
-// Time Complexity: O(nlogn)
+// Time Complexity: O(NlogN)
 // Space Complexity: O(1)
 // int largestElement(vector<int> &arr, int n) {
 
@@ -21,7 +21,7 @@ using namespace std;
 
 
 // OPTIMAL:
-// Time Complexity: O(n)
+// Time Complexity: O(N)
 // Space Complexity: O(1)
 int largestElement(vector<int> &arr, int n) {
 

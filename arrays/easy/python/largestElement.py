@@ -4,7 +4,7 @@ Given an array of integers, find the largest element in the array.
 """
 
 # BRUTE FORCE:
-# Time Complexity: O(nlog(n)) - since sorting takes at best O(nlog(n)) time
+# Time Complexity: O(Nlog(N)) - since sorting takes at best O(Nlog(N)) time
 # Space Complexity: O(1)
 # def largestElement(arr: list, arr_len: list) -> int:
 
@@ -14,7 +14,7 @@ Given an array of integers, find the largest element in the array.
 
 
 # OPTIMAL SOLUTION:
-# Time Complexity: O(n) - since we are only looping over the array once
+# Time Complexity: O(N) - since we are only looping over the array once
 # Space Complexity: O(1) - since that's the space consumed by the variables
 def largestElement(arr: list, arr_len: int) -> int:
 
